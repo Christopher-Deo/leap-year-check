@@ -1,5 +1,5 @@
 #input to get user supplied year to be checked
-year = int(input("Which year do you want to check? "))
+year = int(eval(input("Which year do you want to check? ")))
 
 #logic to determine if the year entered is a leap year
 if year % 4 == 0:
